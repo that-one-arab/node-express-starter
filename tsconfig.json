@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2015", // Or ES6
+    "module": "CommonJS", // Match your Node.js environment
+    "lib": [
+      "ESNext",
+      "DOM"
+    ], // Use modern JavaScript features
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true, // Avoid errors in type definitions
+    "forceConsistentCasingInFileNames": true,
+  },
+  "include": [
+    "index.ts"
+  ]
+}
